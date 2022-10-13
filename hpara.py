@@ -10,6 +10,7 @@ from stable_baselines3.common.monitor import Monitor
 from stable_baselines3.common.vec_env import DummyVecEnv, VecFrameStack
 # Import os to deal with filepaths
 import os
+import env
 
 LOG_DIR = 'E:/fyp/StreetFighterRL-main/logs/'
 OPT_DIR = 'E:/fyp/StreetFighterRL-main/opt/'
